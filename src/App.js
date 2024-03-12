@@ -1,10 +1,10 @@
-import Wrapper from "./components/wrapper/Wrapper";
+import TicTacToe from "./components/tictactoe/TicTacToe";
 
 function App() {
   return (
     <div className="container">
       <h1>Tic Tac Toe</h1>
-      <Wrapper />
+      <TicTacToe />
     </div>
   );
 }

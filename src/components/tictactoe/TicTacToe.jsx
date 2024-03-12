@@ -9,15 +9,15 @@ import {
   DRAW,
 } from "../../utils/constants.js";
 import { getRandomInt, switchPlayer } from "../../utils/utils.js";
-import "./Wrapper.css";
-import Board from "../board/Board";
-import Grid from "../grid/Grid";
+import "./TicTacToe.css";
+import Board from "../board/Board.jsx";
+import Grid from "../grid/Grid.js";
 import ResultModal from "../modal/ResultModal.jsx";
 
 const emptyGrid = new Array(DIMENSIONS ** 2).fill(null);
 const grid = new Grid();
 
-function Wrapper() {
+function TicTacToe() {
   const [players, setPlayers] = useState({ human: null, ai: null });
   const [gameState, setGameState] = useState(GAME_STATES.notStarted);
   const [board, setBoard] = useState(emptyGrid);
@@ -187,4 +187,4 @@ function Wrapper() {
   );
 }
 
-export default Wrapper;
+export default TicTacToe;

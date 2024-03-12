@@ -99,7 +99,7 @@ export default class Board {
         return {
           transform: `rotate(90deg)`,
           top: "23rem",
-          left: "12.188rem",
+          left: "14.188rem",
           width: `${defaultWidth}rem`,
         };
       case 6:
