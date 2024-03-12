@@ -1,0 +1,13 @@
+.button-row button {
+  background-color: #e6e6e6;
+  border: none;
+  color: #333;
+  padding: 1.2rem 3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 0.2rem solid #6666;
+  border-radius: 0.5rem;
+}
